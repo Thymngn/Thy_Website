@@ -2,7 +2,7 @@
 
 Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-Live site: _coming soon_
+Live site: https://thymngn.vercel.app/
 
 ## Tech Stack
 
