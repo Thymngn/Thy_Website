@@ -10,7 +10,7 @@ const projects = [
     title: "Owl Search",
     description:
       "Retrieval-Augmented Generation (RAG) assistant that answers plain-language questions about Florida Atlantic University",
-    tech: ["Python", "RAG"],
+    tech: ["Python", "RAG", "Gradio"],
     github: "https://github.com/Thymngn/ai201-Owl_Search",
   },
   {
@@ -18,20 +18,20 @@ const projects = [
     description:
       "AI-powered educational assistant that explains financial concepts using Azure OpenAI, MCP tools, and a Streamlit UI.",
     tech: ["Azure OpenAI", "Streamlit", "MCP"],
-    github: "https://github.com/yourusername/project3",
+    github: "https://github.com/Thymngn/FinanceAgent",
   },
   {
-    title: "Data Analytics Dashboard",
+    title: "OSWA Pentesting Agent",
     description:
-      "End-to-end business intelligence dashboard surfacing sales trends and KPIs for stakeholder decision-making.",
-    tech: ["SQL", "Power BI", "DAX"],
-    github: "https://github.com/yourusername/project4",
+      "Autonomous AI agent that conducts penetration testing against OWASP Juice Shop, a deliberately vulnerable web application.",
+    tech: ["Python", "LLM", "Shell", "Docker"],
+    github: "https://github.com/Thymngn/OSWA_Pentesting_Agent",
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-10">
       <h2 className="text-3xl font-bold mb-8">Projects</h2>
 
       <div className="grid md:grid-cols-2 gap-6">

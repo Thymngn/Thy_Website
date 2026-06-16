@@ -8,7 +8,7 @@ const skills = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="py-16">
       {/* Hero */}
       <div className="flex flex-col-reverse md:flex-row items-center gap-10">
         <div className="flex-1">
@@ -16,11 +16,13 @@ export default function About() {
             Computer Science Graduate · Florida Atlantic University
           </p>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Hi, I&apos;m Thy Nguyen
+            Hi, I&apos;m Thy
           </h1>
           <p className="mt-5 text-lg text-gray-600 leading-relaxed max-w-xl">
             I build data-driven solutions and turn insights into action.
             Passionate about AI, analytics, and cloud computing.
+          </p>
+          <p className="text-gray-700 leading-relaxed max-w-2xl">
             Based in Florida, United States.
           </p>
           <div className="mt-7 flex gap-3 flex-wrap">

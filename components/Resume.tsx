@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <section id="resume" className="py-24">
+    <section id="resume" className="py-5">
       <h2 className="text-3xl font-bold mb-3">Resume</h2>
       <p className="text-gray-500 mb-6 max-w-lg">
         My full resume covers education, work experience, projects, and
